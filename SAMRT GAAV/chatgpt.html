@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChatGPT Awareness - Smart Gaav</title>
+  <link rel="stylesheet" href="home.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4fdf6;
+      margin: 0;
+    }
+    header {
+      background: linear-gradient(to right, #1b5e20, #66bb6a);
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #43a047;
+      flex-wrap: wrap;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #2e7d32;
+    }
+    .section {
+      background-color: white;
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: 12px;
+      max-width: 900px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .section img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .highlight-box {
+      background-color: #e8f5e9;
+      padding: 20px;
+      border-left: 6px solid #2e7d32;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .btn {
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      margin-left: 350px;
+      margin-top: 100px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 15px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .ai-img{
+      width: 400px;
+      height: 300px;
+      padding-left: 250px;
+
+    }
+    .extra-details {
+      background-color: #c8e6c9;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 25px;
+      line-height: 1.6;
+    }
+    .two-column {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .column-box {
+      flex: 1;
+      background-color: #f1f8e9;
+      padding: 20px;
+      border-left: 5px solid #689f38;
+      border-radius: 10px;
+      min-width: 280px;
+    }
+    footer {
+      text-align: center;
+      background-color: #1b5e20;
+      color: white;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ChatGPT Awareness</h1>
+    <p>AI for Rural Development</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="education.html">Education</a>
+    <a href="chatgpt.html">ChatGPT</a>
+    <a href="tree-planting.html">Tree Plantation</a>
+    <a href="services.html">Services</a>
+  
+  </nav>
+
+  <div class="section">
+    <h2>What is ChatGPT?</h2>
+    <p><strong>ChatGPT</strong> is a smart AI chatbot created by OpenAI. It helps you answer questions, explain topics, translate languages, and even generate ideas. It works in English, Hindi, Marathi, and other local languages — making it perfect for rural areas.</p>
+
+    <img class="ai-img" src="data:image/jpeg;base64,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" alt="AI for rural communities">
+
+   <div class="highlight-box">
+  <h3>How Can ChatGPT Help in Rural Areas?</h3>
+  <ul>
+    <li><strong>🧠 Education:</strong> Ask questions, get simple answers, and practice subjects like math, English, and science. Students can clear doubts instantly without waiting for a teacher.</li>
+    <li><strong>🌾 Agriculture:</strong> Get tips on seeds, fertilizers, weather updates, and organic farming. ChatGPT can help farmers learn about pest control, crop rotation, and best practices based on the season.</li>
+    <li><strong>👨‍⚕️ Health:</strong> Learn about hygiene, first aid, and common illness prevention. Get suggestions for home remedies or when to see a doctor (but not as a replacement for medical professionals).</li>
+    <li><strong>💼 Jobs & Exams:</strong> Get guidance on job preparation, competitive exams, and resume writing. Rural youth can also prepare for interviews and improve English communication skills.</li>
+    <li><strong>🌐 Translations:</strong> Convert sentences from Hindi/Marathi to English or vice versa easily. Helps understand English documents and create letters or applications.</li>
+  </ul>
+</div>
+
+<div class="extra-details">
+  <p><strong>Simple to Use!</strong> You don’t need to install anything or have high-level English. Just open a browser, go to the ChatGPT site, type your question in Hindi or Marathi, and get a clear response within seconds.</p>
+  <p><strong>Use Cases:</strong> A farmer can ask, “इस मौसम में कौन सी फसल उगानी चाहिए?” and get personalized advice. A student might ask, “Explain photosynthesis in simple Hindi,” and receive an easy explanation.</p>
+  <p><strong>Works on any device:</strong> ChatGPT can be accessed through mobile phones, tablets, and computers — even low-end ones, as long as there is an internet connection.</p>
+  <p><strong>Speak or Type:</strong> Rural users can use voice typing tools in mobile keyboards to speak their question, making it even easier for those not used to typing.</p>
+  <p><strong>24/7 Availability:</strong> You don’t have to wait for someone to be online — ChatGPT is always ready to answer, day or night.</p>
+</div>
+
+
+    <div class="two-column">
+      <div class="column-box">
+        <h3>How Kids Can Use ChatGPT 👧👦</h3>
+        <ul>
+          <li>Ask homework questions and get step-by-step answers.</li>
+          <li>Practice grammar, vocabulary, and general knowledge.</li>
+          <li>Improve spoken English by chatting in simple sentences.</li>
+          <li>Get help with writing stories, speeches, or projects.</li>
+          <li>Explore fun facts, riddles, and science experiments.</li>
+        </ul>
+      </div>
+      <div class="column-box">
+        <h3>How Adults Can Use ChatGPT 👩‍🌾👨‍🔧</h3>
+        <ul>
+          <li>Learn about new farming techniques and natural remedies.</li>
+          <li>Ask about government schemes, loans, and subsidies.</li>
+          <li>Write applications, letters, and resumes with AI help.</li>
+          <li>Translate documents or talk in English confidently.</li>
+          <li>Get daily life advice — from cooking tips to safety tips.</li>
+        </ul>
+      </div>
+    </div>
+
+   <a class="btn" href="https://chat.openai.com/" target="_blank">🔍 Try ChatGPT Now</a>
+
+      <p style="margin-top: 20px; font-weight: bold; font-size: 18px; color: #1b5e20; text-align: center;">
+    ✅ Start using ChatGPT today to learn more, grow faster, and stay informed. It’s your smart companion for a better rural future.
+  </p>
+  </div>
+
+ 
+
+  <footer>
+    <p>&copy; 2025 Smart Gaav</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,121 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+
+ 
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+  nav {
+      display: flex;
+      justify-content: center;
+      background-color: #4caf50;
+      flex-wrap: wrap;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #2e7d32;
+    }
+
+    .section {
+      padding: 20px;
+      background-color: white;
+      margin: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .section h2 {
+      color: #2e7d32;
+    }
+
+    .section img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .info-box {
+      background-color: #e8f5e9;
+      padding: 15px;
+      border-left: 5px solid #2e7d32;
+      border-radius: 8px;
+      transition: all 0.3s ease-in-out;
+      box-sizing: border-box;
+    }
+
+     .info-box.middle {
+      grid-column: 1 / span 2;
+      justify-self: center;
+      width: 50%;
+    }
+
+    .info-box:hover {
+      transform: scale(1.02);
+      background-color: #d0f0d2;
+    }
+
+
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .img1 {
+      width: 300px;
+      margin-left: 470px;
+    }
+
+
+    .btn1 {
+      background-color: #66bb6a;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      margin-top: 10px;
+      margin-left:475px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .btn2 {
+      background-color: #66bb6a;
+      color: white;
+      border: none;
+      padding: 10px 32px;
+      margin-top: 10px;
+      margin-left:10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .btn:hover {
+      background-color: #4caf50;
+    }
